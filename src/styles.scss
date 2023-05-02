@@ -11,8 +11,12 @@
     opacity: 0.8!important;
 }
 .button{
-    background-color: #f17945!important;
+    color: #f17945!important;
     border: 1px solid #f17945!important;
     border-radius: 20px!important;
     padding: 6px 30px!important;
+}
+.button:hover{
+    color: white!important;
+    background-color: #f17945;
 }

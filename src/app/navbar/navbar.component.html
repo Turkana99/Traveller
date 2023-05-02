@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light bg-light" (scroll)="onWindowScroll()">
     <div class="container-fluid">
         <!--Title-->
       <a class="navbar-brand title color_wht ps-5" href="#">Traveller</a>
@@ -7,7 +7,7 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <!--Menu List-->
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex">
           <li class="nav-item">
             <a class="nav-link active color_wht text" aria-current="page" href="#">Home</a>
           </li>
