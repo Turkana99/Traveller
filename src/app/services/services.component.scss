@@ -1,0 +1,36 @@
+.my_services {
+    background-color: #F7F7F7 !important;
+    padding: 100px 80px!important;
+}
+
+.my_services img {
+    width: 40% !important;
+    height: 60px !important;
+    background-color: RGBA(241, 121, 69, 0.2) !important;
+    border: 1px solid RGBA(241, 121, 69, 0.2);
+    border-radius: 50%;
+    padding: 10px 0px !important;
+}
+
+.title {
+    color: #343661 !important;
+    font-weight: bold;
+}
+
+.col-lg-4 {
+    padding: 0px 150px 0px 0px;
+}
+
+.col-lg-4 .title{
+    font-size:35px!important;
+   
+}
+.col-lg-2 .title{
+    font-size:24px!important;
+}
+.col-lg-4 .text{
+    font-size: 16px!important;
+}
+.col-lg-2 .text{
+    font-size: 12px!important;
+}
